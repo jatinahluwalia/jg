@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.orangeBG_Color {
+  background: #e68f5c;
+}
+
+.BlueText_Color {
+  color: #2773b0;
+}
+
+.standard-p {
+  padding-top: 100px;
+}
+@font-face {
+  font-family: 'Ramillas';
+  src: url('./assets/ramillas-regular.otf');
+  font-weight: 400;
+}

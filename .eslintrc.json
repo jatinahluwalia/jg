@@ -1,0 +1,11 @@
+{
+  "plugins": ["tailwindcss"],
+  "extends": ["plugin:tailwindcss/recommended", "prettier", "standard"],
+  "rules": {
+    "semi": "off",
+    "space-before-function-paren": "off",
+    "comma-dangle": "off",
+    "multiline-ternary": "off",
+    "no-unused-vars": "off"
+  }
+}
